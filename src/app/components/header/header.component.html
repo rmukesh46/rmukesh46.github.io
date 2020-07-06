@@ -1,0 +1,7 @@
+<p>
+  <ng-container *ngFor="let level of levels; last as last">
+    <a href (click)="onClick(level)" [ngClass]="selected(level)">{{ level | titlecase }}</a>
+    <span *ngIf="!last"> - </span>
+  </ng-container>
+</p>
+Board ({{ level | titlecase }}): <b>{{ result }}</b>

@@ -1,0 +1,5 @@
+<app-header [level]="level" [result]="result" (changeLevel)="changeLevel($event)"></app-header>
+
+<app-board [board]="board" (checkCell)="checkCell($event)" (flag)="flag($event)"></app-board>
+
+<button (click)="reset()" class="button">Restart</button>
