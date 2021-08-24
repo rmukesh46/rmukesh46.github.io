@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T01:38:53.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="0h4w_pQNrC54NAQu-o2f" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-24T02:04:14.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="aRrOXQCcDSujmz2nCXdu" version="14.9.8" type="github">
   <diagram id="xHiCJmN3q7pxd_jBHXuB" name="Page-1">
     <mxGraphModel dx="758" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -36,8 +36,8 @@
         </mxCell>
         <mxCell id="bubmu7Ykw6OW3g8QdOum-23" value="" style="endArrow=none;html=1;entryX=0.435;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="659.5" y="550.0807543945313" as="sourcePoint" />
-            <mxPoint x="659.7" y="60" as="targetPoint" />
+            <mxPoint x="690" y="550.0807543945313" as="sourcePoint" />
+            <mxPoint x="690.2" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bubmu7Ykw6OW3g8QdOum-24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
@@ -69,6 +69,71 @@
             <mxPoint x="310" y="550.12" as="sourcePoint" />
             <mxPoint x="310.20000000000005" y="60" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-33" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="sourcePoint" />
+            <mxPoint x="490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-34" value="{Transfer} Connect to Destination Ecm Repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-35" value="{Session} Connect to source Ecm Repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-36" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="200" as="sourcePoint" />
+            <mxPoint x="690" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bubmu7Ykw6OW3g8QdOum-40" target="bubmu7Ykw6OW3g8QdOum-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bubmu7Ykw6OW3g8QdOum-40" target="bubmu7Ykw6OW3g8QdOum-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-40" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-41" value="targetRepo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bubmu7Ykw6OW3g8QdOum-42" target="bubmu7Ykw6OW3g8QdOum-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="330" />
+              <mxPoint x="253" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-42" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-44" value="empty?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-47" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="340" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-49" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-50" value="Target Repo Must be empty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="355" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-51" value="Set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-52" value="Notset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-53" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bubmu7Ykw6OW3g8QdOum-55" value="Create New Repo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="355" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
